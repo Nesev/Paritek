@@ -1,0 +1,12 @@
+test_domotique:
+#ici ca donne url qu'on doit rentrer et qui fera appel a Symfony/src/testBundle/Resources/views/Default/index.html.twig
+    path:     /projets/domotique/{name} 
+    defaults: { _controller: testBundle:Default:domotique } 
+#nomdubundle:Nomduphp:nomdelafonctionduphpenquestion
+
+test_robotique:
+    path:     /projets/robotique/{name} 
+    defaults: { _controller: testBundle:Default:robotique }
+test_informatique:
+    path:     /projets/informatique/{name} 
+    defaults: { _controller: testBundle:Default:informatique }
